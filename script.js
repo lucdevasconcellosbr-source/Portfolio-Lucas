@@ -1,19 +1,5 @@
-const links = document.querySelectorAll('nav a');
+document.getElementById("darkToggle").onclick = () => {
 
-links.forEach(link => {
+document.body.classList.toggle("light");
 
-link.addEventListener('click', function(e){
-
-e.preventDefault();
-
-const id = this.getAttribute("href");
-
-document.querySelector(id).scrollIntoView({
-
-behavior: "smooth"
-
-});
-
-});
-
-});
+};

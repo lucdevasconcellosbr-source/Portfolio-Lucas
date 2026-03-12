@@ -3,130 +3,149 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lucas Gonçalves | Portfólio</title>
+<title>Lucas Gonçalves | Developer</title>
+
 <link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
+<div id="particles"></div>
+
 <header>
-<div class="container header-content">
 
-<img src="foto.jpg" class="profile">
+<nav>
 
-<div>
-<h1>Lucas Gonçalves</h1>
-<p class="subtitle">Desenvolvedor em formação | Tecnologia da Informação</p>
-</div>
+<h2 class="logo">Lucas.dev</h2>
 
-</div>
+<ul>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projetos">Projetos</a></li>
+<li><a href="#contato">Contato</a></li>
+</ul>
+
+<button id="darkToggle">🌙</button>
+
+</nav>
+
 </header>
 
-<section class="sobre container">
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>Lucas Gonçalves</h1>
+
+<h3>Computer Science Student</h3>
+
+<p>
+Desenvolvedor em formação focado em programação,
+banco de dados e construção de sistemas eficientes.
+</p>
+
+<a class="btn" href="#contato">Entrar em contato</a>
+
+</div>
+
+<img src="foto.jpg" class="hero-img">
+
+</section>
+
+
+<section id="sobre">
+
 <h2>Sobre Mim</h2>
 
 <p>
-Estudante de Ciência da Computação com experiência prática em Tecnologia da Informação,
-desenvolvimento de sistemas e APIs. Tenho perfil proativo, organizado e colaborativo,
-buscando constantemente adquirir novos conhecimentos e contribuir para soluções tecnológicas
-eficientes dentro das empresas.
+Sou estudante de Ciência da Computação apaixonado por tecnologia,
+programação e resolução de problemas.
+
+Busco constantemente evoluir tecnicamente e construir soluções
+eficientes através da programação.
 </p>
 
 </section>
 
-<section class="experiencia container">
 
-<h2>Experiência Profissional</h2>
+<section id="skills">
 
-<div class="card">
-<h3>Estagiário - BIC (Brazilian Ice Cream)</h3>
-<p class="periodo">Jan 2025 — Jul 2025</p>
-
-<ul>
-<li>Colaboração com equipe administrativa e tecnológica.</li>
-<li>Atendimento presencial, telefônico e online.</li>
-<li>Organização de agendas, documentos e processos internos.</li>
-<li>Acompanhamento de atividades e cumprimento de prazos.</li>
-</ul>
-
-</div>
-
-</section>
-
-<section class="formacao container">
-
-<h2>Formação Acadêmica</h2>
-
-<div class="card">
-<h3>Ciência da Computação</h3>
-<p>Universidade Católica de Brasília</p>
-<p class="periodo">2025 — 2029 (Cursando)</p>
-</div>
-
-<div class="card">
-<h3>Cursos Complementares</h3>
-
-<ul>
-<li>Cultura Digital — PUCRS</li>
-<li>Programação em Python — PrimeCursos</li>
-<li>SQL — PrimeCursos</li>
-</ul>
-
-</div>
-
-</section>
-
-<section class="skills container">
-
-<h2>Habilidades</h2>
+<h2>Skills</h2>
 
 <div class="skills-grid">
 
 <div class="skill">Python</div>
 <div class="skill">SQL</div>
+<div class="skill">Git</div>
 <div class="skill">APIs</div>
-<div class="skill">Trabalho em equipe</div>
-<div class="skill">Comunicação</div>
-<div class="skill">Organização</div>
-<div class="skill">Proatividade</div>
+<div class="skill">Problem Solving</div>
+<div class="skill">Team Work</div>
 
 </div>
 
 </section>
 
-<section class="idiomas container">
 
-<h2>Idiomas</h2>
+<section id="projetos">
 
-<ul>
-<li>Português — Nativo</li>
-<li>Inglês — C2 (Proficiente)</li>
-<li>Espanhol — B1 (Pré-intermediário)</li>
-</ul>
+<h2>Projetos</h2>
+
+<div class="projetos-grid">
+
+<div class="card">
+
+<h3>Sistema em Python</h3>
+
+<p>
+Projeto utilizando Programação Orientada a Objetos.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Banco de Dados SQL</h3>
+
+<p>
+Modelagem e manipulação de banco de dados.
+</p>
+
+</div>
+
+</div>
 
 </section>
 
-<section class="contato container">
+
+<section id="contato">
 
 <h2>Contato</h2>
 
 <p>Email: lucdevasconcellosbr@gmail.com</p>
+
 <p>Telefone: +55 (61) 98312-0710</p>
 
 <p>
 GitHub:
-<a href="https://github.com/lucdevasconcellosbr-source" target="_blank">
+<a href="https://github.com/lucdevasconcellosbr-source">
 github.com/lucdevasconcellosbr-source
 </a>
 </p>
 
 </section>
 
+
 <footer>
 
-<p>© 2026 — Lucas Gonçalves</p>
+<p>© 2026 Lucas Gonçalves</p>
 
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
