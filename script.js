@@ -1,15 +1,17 @@
-document.querySelectorAll('nav a').forEach(link => {
-
-link.addEventListener('click', function(e){
-
-e.preventDefault();
-
-const id = this.getAttribute("href");
-
-document.querySelector(id).scrollIntoView({
-behavior: "smooth"
-});
-
-});
-
+particlesJS("particles-js", {
+  "particles": {
+    "number": { "value": 60 },
+    "size": { "value": 3 },
+    "color": { "value": "#ffffff" },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.2
+    },
+    "move": {
+      "enable": true,
+      "speed": 2
+    }
+  }
 });
