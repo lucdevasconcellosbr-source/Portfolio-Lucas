@@ -10,3 +10,23 @@ particlesJS("particles-js", {
     }
   }
 });
+
+ScrollReveal().reveal('.card', {
+distance: '40px',
+duration: 800,
+easing: 'ease-in-out',
+origin: 'bottom',
+interval: 200
+});
+
+ScrollReveal().reveal('.hero-text', {
+distance: '40px',
+duration: 800,
+origin: 'left'
+});
+
+ScrollReveal().reveal('.hero-img', {
+distance: '40px',
+duration: 800,
+origin: 'right'
+});
