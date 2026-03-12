@@ -164,6 +164,21 @@ text-align:center;
 background:#121212;
 border-top:1px solid #222;
 border-bottom:1px solid #222;
+padding:100px 10%;
+margin-top:80px;
+margin-bottom:80px;
+}
+
+.hire h2{
+font-size:32px;
+margin-bottom:20px;
+}
+
+.hire p{
+max-width:600px;
+margin:auto;
+margin-bottom:30px;
+color:#bbb;
 }
 
 .tech{
