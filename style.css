@@ -134,3 +134,34 @@ padding:40px;
 border-top:1px solid #222;
 color:#777;
 }
+
+.hero-buttons{
+display:flex;
+gap:15px;
+margin-top:20px;
+}
+
+.btn-outline{
+border:1px solid white;
+padding:12px 25px;
+border-radius:6px;
+text-decoration:none;
+color:white;
+}
+
+.project-btn{
+display:inline-block;
+margin-top:15px;
+text-decoration:none;
+color:white;
+border:1px solid #333;
+padding:8px 15px;
+border-radius:6px;
+}
+
+.hire{
+text-align:center;
+background:#121212;
+border-top:1px solid #222;
+border-bottom:1px solid #222;
+}
