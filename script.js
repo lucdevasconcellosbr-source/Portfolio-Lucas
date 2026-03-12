@@ -1,5 +1,15 @@
-document.getElementById("darkToggle").onclick = () => {
+document.querySelectorAll('nav a').forEach(link => {
 
-document.body.classList.toggle("light");
+link.addEventListener('click', function(e){
 
-};
+e.preventDefault();
+
+const id = this.getAttribute("href");
+
+document.querySelector(id).scrollIntoView({
+behavior: "smooth"
+});
+
+});
+
+});
